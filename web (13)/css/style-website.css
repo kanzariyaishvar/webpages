@@ -1,0 +1,322 @@
+header{
+    height: 100px;
+    width: 100%;
+    background-color:  #15317e;
+    border: 1px solid #15317e;
+}
+header #logo{
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+header #logo h1{
+    color: whitesmoke;
+    font-size: 25px;
+    line-height: 60px;
+    padding-left: 100px;
+    text-transform: uppercase;
+    width: 100%;
+    height: inherit;
+}
+#logo strong{
+    font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+    color: black;
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+header #nav{
+    height: 100px;
+    width: 50%;
+    float: right;
+}
+header #nav li{
+    list-style: none;
+}
+header #nav a{
+    width: 100%;
+    height: inherit;
+    text-decoration: none;
+    align-items: right;
+    color: whitesmoke;
+    line-height: 100px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#text{
+    border: 1px solid white;
+    height: 250px;
+    width: 600px;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 35%;
+    background-color: white;
+}
+#text p{
+    font-size: 80px;
+    color: #15317e;
+    margin-top: -10px;
+}
+#text button{
+    font-size: 30px;
+    background-color: whitesmoke;
+    margin-top: -30px;
+}
+#b1{
+width: 200px;
+text-align: center;
+display: inline-block;
+margin-left: 14%;
+margin-top: 20%;
+}
+#b1 h1{
+    margin-left: 60px;
+}
+#b1 p{
+    margin-top: 40px;
+    letter-spacing: 1px;
+    width: 300px;
+}
+#b1 button{
+     height: 50px;
+     width: 150px;
+     background-color: white;
+     margin-left: 60px;
+     color: #15317e;
+     border: 1px solid #15317e;
+     border-radius: 10px;
+     margin-top: 40px;
+     cursor: pointer;
+}
+#background{
+    background-color: aqua;
+    height: 100vh;
+}
+#box {
+     border: 1px solid white;
+     height: 100Vh;
+     width: 100%;
+}
+#box-1{
+    margin-top: 800px;
+    margin-left:35% ;
+    text-align: center;
+    border: 1px solid white;
+    width: 500px;
+    background-color: white;
+}
+#box-1 button{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1.5s;
+}
+#box-1 button .button:hover{
+    background-color: red;
+    color: white;
+    padding-bottom: 100px;
+}
+#about{
+    height: 50vh;
+    width: 100%;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    opacity: 0.4;
+    margin-top: 10px;
+
+}
+#about h1{
+    text-align: center;
+}
+#pgrf-1{
+    text-align: center;
+    width: 600px;
+    margin-left: 35%;
+    letter-spacing: 2;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+#about p{
+    text-align: center;
+    width: 600px;
+    margin-left: 35%;
+    letter-spacing: 2;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#about button{
+    margin-left:45%;
+    margin-top: 50px;
+    border: 1px solid #15317e;
+    color:#15317e;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+#client-1 {
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+#client h1{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom:5%;
+}
+.ri-facebook-circle-fill{
+    font-size: 100px;
+    margin-bottom: 100px;
+    color: blue;
+    padding-left: 150px;
+}
+.ri-instagram-fill{
+    font-size: 100px;
+    margin-bottom: 100px;
+    color:rgb(228, 46, 137);
+    padding-left: 150px;
+}
+.ri-twitter-fill{
+    font-size: 100px;
+    margin-bottom: 100px;
+    color: lightblue;
+    padding-left: 150px;
+}
+.ri-youtube-fill{
+    font-size: 100px;
+    margin-bottom: 100px;
+    color: red;
+    padding-left: 150px;
+}
+#TESTIMONIALS{
+    text-align: center;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    height: 650px;
+}
+#TESTIMONIALS h1{
+    margin-top: 200px;
+    color: black;
+    margin-bottom:50px;
+}
+#TESTIMONIALS p{
+    width: 500px;
+    margin-left: 33%;
+}
+#TESTIMONIALS strong{
+    color: #15317e;
+}
+#TESTIMONIALS h2{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+.ri-arrow-left-s-line{
+    margin-right: 650px;
+}
+#contact{
+    margin-top: -30px;
+    height: 700px;
+    width: 100%;
+    background-color: #15317e;
+    opacity: 0.9;
+}
+#contact input{
+    
+    width: 400px;
+    text-align: center;
+
+}
+#input-1{
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: none;
+    border-bottom: 4px solid white;
+    background-color: #15317e;
+}
+#input-3{
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 100px;
+    border: none;
+    border-bottom: 4px solid white;
+    background-color: #15317e;
+}
+#input-2{
+    background-color: #15317e;
+    border: none;
+    border-bottom: 4px solid white;
+}
+#contact label{
+    text-align: center;
+    color: white;
+}
+#first-name{
+    margin-left: 600px;
+}
+#last-name{
+    margin-left: 360px;
+    line-height: 3;
+}
+#contact button{
+    border: 1px solid white;
+    height: 40px;
+    width:150px;
+    background-color: aliceblue;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+}
+#contact h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+#footer{
+    padding-top: 100px;
+    float: left;
+    width: 400px;
+    border: 1px solid #15317e;
+    background-color: #15317e;
+    color: whitesmoke;
+    height: 400px;
+    width: 100%;
+}
+#footer-1{
+    float: left;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #15317e;
+    display:inline block;
+    color: whitesmoke;
+    margin-left: 200px;
+}
+#footer-1 a{
+    width: 300px;
+    height: 400px;
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+}
+#footer-2{
+    float: right;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #15317e;
+    color: whitesmoke;
+}
+#footer-3{
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid #15317e;
+    color: whitesmoke;
+}

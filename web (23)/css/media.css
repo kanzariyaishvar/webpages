@@ -1,0 +1,130 @@
+@media (min-width:768px) and (max-width:992px) {
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        height: auto;
+    }   
+    #section-3{
+        height: auto;
+    }
+    #parent-3{
+        height: auto;
+        flex-direction: column;
+    }
+    #section-5{
+        height: auto;
+    }
+    #parent-5{
+        height: auto;
+        flex-direction: column;
+    }
+    #section-6{
+        height: auto;
+    }
+    #parent-6{
+        height: auto;
+    }
+    #section-7{
+        height: auto;
+    }
+    #parent-7{
+        height: auto;
+    }
+    #section-8{
+        height: auto;
+    }
+    #parent-8{
+        height: auto;
+    }
+    #section-9{
+        height: auto;
+    }
+    #parent-9{
+        height: auto;
+    }
+    #child-9 iframe{
+        height: 500px;
+        width: 100%;
+    }
+    footer{
+        height: auto;
+    }
+    #footer-1{
+        height: auto;
+    }
+}
+@media (min-width:576px) and (max-width:768px) {
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        height: auto;
+    }
+    #section-3{
+        height: auto;
+    }
+    #parent-3{
+        height: auto;
+        flex-direction: column;
+    }
+    #section-4{
+        height: auto;
+    }
+    #parent-4{
+        height: auto;
+    }
+    #section-5{
+        height: auto;
+    }
+    #parent-5{
+        height: auto;
+        flex-direction: column;
+    }
+    #section-6{
+        height: auto;
+    }
+    #parent-6{
+        height: auto;
+    }
+    #section-7{
+        height: auto;
+    }
+    #parent-7{
+        height: auto;
+    }
+    #section-8{
+        height: auto;
+    }
+    #parent-8{
+        height: auto;
+    }
+    #section-9{
+        height: auto;
+    }
+    #parent-9{
+        height: auto;
+    }
+    #child-9 iframe{
+        height: 500px;
+        width: 100%;
+    }
+    footer{
+        height: auto;
+    }
+    #footer-1{
+        height: auto;
+    }
+}

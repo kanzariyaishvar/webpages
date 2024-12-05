@@ -1,0 +1,256 @@
+
+ @media (max-width:980px) {
+    nav #icon{
+       display: block;
+    }
+    nav ul{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background: #2f3640;
+       top: 80px;
+       left: -100%;
+       text-align: center;
+       float: right;
+       transform: all .5s;
+       margin-right: 40px;
+       }
+    nav li{
+       display: block;
+       margin: 50px 0;
+       line-height: 30px;  
+    }
+    nav a{
+       font-size: 20px;
+    }
+    a.active,a:hover{
+       border: none;
+       color: #3498db;
+ 
+    }
+    nav ul.show{
+       left: 0;
+ 
+    }
+    #section1{
+      height: auto;
+    }
+    #parent-1{
+      height: auto;
+    }
+    #child-1a{
+      height: 400px;
+    }
+    #section2{
+      height: auto;
+    }
+    #parent-2{
+      height: auto;
+    }
+    #child-4 h2{
+      font-size: 30px;
+    }
+    #child-4 p{
+      font-size: 15px;
+    }
+    #section-3{
+      height: auto;
+    }
+    #parent-3{
+      height: auto;
+    }
+    #child-5 h2{
+     font-size: 30px;
+     padding: 5px;
+    }
+    #child-5 p{
+      font-size: 15px;
+      padding: 5px;
+      margin-bottom: 18px;
+    }
+    #child-5 button{
+      margin-left: 5px;
+    }
+    #section-4{
+      height: auto;
+   }
+   #parent-4{
+      height: auto;
+   }
+   footer{
+      height: auto;
+   }
+   #footer-1{
+      height: auto;
+      flex-direction: column;
+   }
+ }
+ @media (min-width:481px) and (max-width:720px){
+   #background{
+      height: 89vh;
+   }
+   #back-child{
+      margin-left: 50px;
+      height: auto;
+      width: 400px;
+   }
+   #back-child h1{
+      font-size: 40px;
+
+   }
+   #back-child p{
+      font-size: 12px;
+   }
+   #back-child .btn{
+      padding: 10px 20px;
+      font-size: 15px;
+   }
+   #section1{
+      height: auto;
+   }
+   #parent-1{
+      height: auto;
+   }
+   #child2{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-1a{
+      width: 90%;
+      margin-bottom: 10px;
+   }
+   #section2{
+      height: auto;
+   }
+   #parent-2{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-4 {
+      padding: 0;
+      margin: 0;
+   }
+   #child-4 h2{
+      font-size: 30px;
+   }
+   #section-3{
+      height: auto;
+      margin-top: 10px;
+   }
+   #parent-3{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-5 h2{
+      font-size: 30px;
+      padding: 10px;
+   }
+   #child-5 p{
+      font-size: 15px;
+      padding: 10px;
+   }
+   #child-5 button{
+      margin-left: 10px;
+   }
+   #section-4{
+      height: auto;
+   }
+   #parent-4{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-4a{
+      margin-bottom: 10px;
+   }
+ }
+ @media (min-width:0px) and (max-width:480px){
+   #background{
+      height: 89vh;
+   }
+   #back-child{
+      margin-left: 50px;
+      height: auto;
+      width: 400px;
+   }
+   #back-child h1{
+      font-size: 40px;
+
+   }
+   #back-child p{
+      font-size: 12px;
+   }
+   #back-child .btn{
+      padding: 10px 20px;
+      font-size: 15px;
+   }
+   #section1{
+      height: auto;
+   }
+   #parent-1{
+      height: auto;
+   }
+   #child2{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-1a{
+      width: 90%;
+      margin-bottom: 10px;
+   }
+   #section2{
+      height: auto;
+   }
+   #parent-2{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-4 {
+      padding: 0;
+      margin: 0;
+   }
+   #child-4 h2{
+      font-size: 30px;
+   }
+   #section-3{
+      height: auto;
+      margin-top: 10px;
+   }
+   #parent-3{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-5 h2{
+      font-size: 30px;
+      padding: 10px;
+   }
+   #child-5 p{
+      font-size: 15px;
+      padding: 10px;
+   }
+   #child-5 button{
+      margin-left: 10px;
+   }
+   #section-4{
+      height: auto;
+   }
+   #parent-4{
+      height: auto;
+      flex-direction: column;
+   }
+   #child-4a{
+      margin-bottom: 10px;
+   }
+   #slider p{
+      font-size: 12px;
+   }
+   .swiper-slide{
+      width: 400px;
+   }
+   footer{
+      height: auto;
+   }
+   #footer-1{
+      height: auto;
+      flex-direction: column;
+   }
+ }

@@ -1,0 +1,388 @@
+header{
+    height: 100vh;
+    width: 100%;
+    background: url(./img/skyline-2018079_1920\ \(2\).jpg);
+    background-attachment: fixed;
+
+}
+#logo{
+    height: 120px;
+    width:30%;
+    float:left;
+}
+#logo h1{
+    color: whitesmoke;
+    padding-left: 200px;
+    line-height: 80px;
+}
+#logo h1::first-letter{
+    font-family: 'Courgette', cursive;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: blue;
+}
+#nav{
+    float: right;
+    height: 120px;
+    width: 40%;
+}
+#nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    transition: 1s;
+
+}
+#nav ul li a:hover{
+    color: red;
+}
+#nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding-left: 15px;
+}
+ #text{
+    height: 250px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    background-color:inherit;
+    padding-top: 25%;
+    padding-left: 35%;
+} 
+#text input{
+    border-radius: 50px;
+}
+#text h1{
+    color: black;
+    font-size: 40px;
+} 
+#text p{
+    font-size: 18px;
+}
+.search{
+    height: 40px;
+    width: 100%;
+}
+.search-1{
+    height: 40px;
+    width: 50%;
+    float: left;
+}
+.search-1 input{
+    text-align: center;
+    height: 40px;
+    width: 60%;
+} 
+#about{
+
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -30px;
+}
+.about-1{
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    transition: 1.5s;
+}
+.about-1 img:hover{
+    transform: translatey(-40px);
+    opacity: 0.6;
+}
+.about-2 img:hover{
+    transform: translatey(50px);
+    opacity: 0.6;
+}
+.about-3 img:hover{
+    transform: translatey(-40px);
+    opacity: 0.6;
+}
+.about-1 img{
+    height: 300px;
+    width: 100%;
+    transition: 1s;
+}
+.about-2 img{
+    height: 300px;
+    transition: 1.5s;
+    width: 100%;
+}
+.about-3 img{
+    height: 300px;
+    width: 100%;
+    transition: 1.5s;
+}
+.about-2{
+    height: 300px;
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+}
+.about-3{
+    height: 300px;
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+}
+#top{
+    height: 100px;
+    width: 40%;
+    float: left;
+    margin-left: 30%;
+    text-align: center;
+}
+#top p{
+    line-height: 2;
+}
+#destinations{
+    height: 300px;
+    width: 80%;
+    margin-left: 15.5%;
+    float: left;
+    margin-top: 8%;
+}
+#destinations img:hover{
+    opacity: 0.4;
+    border-radius: 20px;
+}
+.destinations-1{
+    height: 150px;
+    width: 12%;
+    float: left;
+    margin-left: 2%;
+    
+}
+.destinations-2{
+    height: 150px;
+    width: 12%;
+    float: left;
+    margin-left: 2%;
+}
+.destinations-3{
+    height:150px;
+    width: 12%;
+    float: left;
+    margin-left: 2%;
+}
+.destinations-4{
+    height: 150px;
+    width: 12%;
+    margin-left: 2%;
+    float: left;
+}
+.destinations-5{
+    height: 150px;
+    width: 12%;
+    margin-left: 2%;
+    float: left;
+}
+.destinations-6{
+    height: 150px;
+    width: 12%;
+    margin-left: 2%;
+    float: left;
+}
+.destinations-1 img{
+    height: 150px;
+    transition: 1s;
+    width: 100%;
+}
+.destinations-2 img{
+    height: 150px;
+    width: 100%;
+    transition: 1s;
+}
+.destinations-3 img{
+    height: 150px;
+    width: 100%;
+    transition: 1s;
+}
+.destinations-4 img{
+    height: 150px;
+    width: 100%;
+    transition: 1s;
+}
+.destinations-5 img{
+    height: 150px;
+    transition: 1s;
+    width: 100%;
+}
+.destinations-6 img{
+    height: 150px;
+    width: 100%;
+    transition: 1s;
+}
+.destinations h2{
+    text-align: left;
+}
+.destinations p{
+    text-align: left;
+}
+#next-travel{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background: url(./img/nature-2384_1920.jpg);
+    background-attachment: fixed;
+    margin-bottom: 5%;
+
+}
+.next-travel{
+    height: 300px;
+    width: 30%;
+    margin-left: 35%;
+    text-align: center;
+    padding-top: 50px;
+    color: whitesmoke;
+    }
+.next-travel h2{
+    font-size: 30px;
+}
+.next-travel p{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.next-travel a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    background-color: black;
+    transition: 1s;
+    font-size: 20px;
+    font-weight: bold;
+}
+.next-travel a:hover{
+    border-radius: 50px;
+    background-color: blue;
+    color: red;
+}
+#fetured{
+    height: 300px;
+    width: 60%;
+    float: left;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+#fetured h3{
+    text-align: center;
+    padding-top: 50%;
+    color: white;
+}
+.fetured-1{
+    height: 300px;
+    width: 27%;
+    float: left;
+    margin-left: 2%;
+}
+.fetured-1 p{
+    line-height: 1.5;
+}
+.fetured a{
+    border: 1px solid skyblue;
+    height: 20px;
+    width: 30px;
+}
+.fetured a i{
+    color: black;
+    font-size: 30px;
+}
+.fetured-2{
+    height: 300px;
+    width: 21%;
+    float: left;
+    margin-left: 2%;
+    color: aliceblue;
+    text-align: center;
+}
+.fetured-3{
+    height: 300px;
+    width: 21%;
+    margin-left: 2%;
+    float: left;
+    color: aliceblue;
+    text-align: center;
+}
+.fetured-4{
+    height: 300px;
+    width: 21%;
+    margin-left: 2%;
+    float: left;
+    color: aliceblue;
+    text-align: center;
+}
+.fetured-2{
+    background: url(./img/hotel-1979406_1280.jpg);
+    border-radius: 10px;
+}
+.fetured-3{
+    background: url(./img/bedroom.jpg);
+    border-radius: 10px;
+}
+.fetured-4{
+    background: url(./img/bgimg.jpg);
+    border-radius: 10px;
+}
+.fetured-2 h3:hover{
+    transform: translatey(-20px);
+}
+.fetured-3 h3:hover{
+    transform: translatey(-20px);
+}
+.fetured-4 h3:hover{
+    transform: translatey(-20px);
+}
+.fetured-2 p:hover{
+    transform: translatey(-20px);
+}
+.fetured-3 p:hover{
+    transform: translatey(-20px);
+}
+.fetured-4 p:hover{
+    transform: translatey(-20px);
+}
+#footer{
+    height: 500px;
+    margin-top: 2%;
+    width: 60%;
+    float: left;
+    margin-left: 20%; 
+}
+.footer{
+    height: 90%;
+    width: 30%;
+    float: left;
+
+}
+.footer-1{
+    height: 90%;
+    width: 17%;
+    margin-left: 1.7%;
+    float: left;
+}
+.footer-2{
+    height: 90%;
+    width: 30%;
+    margin-left: 1.7%;
+    float: left;
+}
+.footer-3{
+    height: 90%;
+    width: 17%;
+    float: left;
+    margin-left: 1.7%;
+}
+#back
+{
+    height: 500px;
+    width: 100%;
+    float: left;
+    background-color:lightgrey;
+}
+#text input{
+    height: 40px;
+    text-align: center;
+    width: 600px;
+}

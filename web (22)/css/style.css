@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: white; */
+}
+.body{
+    background-color: white;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-image: url(../img/i1.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#header img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#head{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#logo{
+    height: 100%;
+    width: 25%;
+}
+#logo h1{
+    padding: 40px 0px 0px 60px;
+    color: white;
+    font-size: 40px;
+    word-spacing: 4px;
+}
+nav{
+    height: 100%;
+    width:75%;
+}
+nav ul{
+    display: flex;
+    /* padding-left: 250px; */
+    float: right;
+
+}
+nav ul li{
+    list-style: none;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+nav ul #anchor{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(248, 93, 37);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul #anchor-2{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#bars{
+    display: none;
+}
+#text{
+    height: 500px;
+    width: auto;
+    left: 12%;
+    top: 30%;
+    color: white;
+}
+#text p{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+#text h2{
+    font-size: 60px;
+    word-spacing: 8px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+#text a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px 45px 15px 45px;
+    background-color: inherit;
+    line-height: 6;
+    color: white;
+    transition: 1.5s;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+#about{
+    height: 700px;
+    width: 100%;
+    
+}
+#about #abt{
+    height: 600px;
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 50px 
+}
+#about #abt #abt1{
+    flex-basis: 45%;
+    height: 100%;
+}
+#about #abt #abt1 h2{
+    font-size: 40px;
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+#about #abt #abt1 p{
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 30px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Geologica', sans-serif;
+font-family: 'Kablammo', cursive;
+font-family: 'Noto Sans Nushu', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Smokum', cursive;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Yuji Hentaigana Akebono', cursive;
+}
+#about #abt #abt1 a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px;
+    border: 1px solid black;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
+#about #abt #abt1 .button{
+    margin-left:100px;
+}
+#about #abt #abt2{
+    flex-basis: 45%;
+    height: 100%;
+}
+#about #abt #abt2 img{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10%;
+}
+#Gallery{
+    height:1000px;
+    width: 100%;
+}
+#Gallery #our-gallery{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#Gallery #our-gallery #img{
+    flex-basis: 28%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Gallery #our-gallery img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 0px;
+}
+#hedding{
+    height: 100px;
+    width: 100%;
+}
+#hedding #our{
+    text-align: center;
+}
+#hedding #our h1{
+    font-size: 50px;
+    color: rgb(248, 93, 37);
+    padding-top: 30px;
+}
+#service{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/i6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#service-class{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+#box-1{
+    height: 350px;
+    flex-basis: 23%;
+    margin-top: 15%;
+    text-align: center;
+    /* background-color: rgb(42, 40, 40); */
+    color: white;
+}
+#box-1 h2{
+    font-size: 30px;
+    padding-top: 120px;
+}
+#Testimonial{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+#Testimonial-1{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+#Testimonial-1 h2{
+    font-size: 30px;
+    padding: 20px;
+    color:  rgb(248, 93, 37);
+}
+#Testimonial-1 p{
+    font-size: 18px;
+    padding: 20px;
+}
+#monila{
+    height: 250px;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+#border-left{
+    height: 200px;
+    flex-basis: 10%;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+#monila-text{
+    flex-basis: 80%;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+#monila-text img{
+    margin-left: 170px;
+}
+#monila-text h2{
+    font-size: 30px;
+    color: rgb(248, 93, 37);
+    padding-left: 60px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+#monila-text p{
+    line-height: 2;
+    font-size: 18px;
+}
+#border-right{
+    height: 200px;
+    flex-basis: 10%;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+#threedot{
+    height: auto;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 80px;
+}
+#three{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#threedot-1{
+    height: 100%;
+    flex-basis: 28%;
+    border-radius: 10px;
+    background-color: rgb(28, 25, 25);
+}
+
+#threedot-2{
+    height: 100%;
+    flex-basis: 28%;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+#threedot-3{
+    height: 100%;
+    flex-basis: 28%;
+    border-radius: 10px;
+    background-color: rgb(28, 25, 25);
+}
+#hedding-2{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#our-1{
+    text-align: center;
+}
+#hedding-2 #our-1 h2{
+    font-size: 50px;
+    color: rgb(248, 93, 37);
+    padding-top: 30px;
+}
+#inputtag{
+    height: 500px;
+    width: 100%;
+}
+#input{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#input-1{
+    flex-basis: 40%;
+    height: 100%;
+    background-image: url(../img/mobile-phone-1917737_640.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+}
+#input-2{
+    flex-basis: 40%;
+    height:100%;
+}
+#input-2 iframe{
+    height: 500px;
+}
+#input-1 input{
+    height: 40px;
+    width:500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 50px;
+}
+#input-1 textarea{
+    height: 150px;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top:50px ;
+    margin-bottom: 20px;
+}
+#input-1 button{
+    height: 50px;
+    width: 170px;
+    margin-left: 220px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: rgb(248, 93, 37);
+    border: 1px solid rgb(248, 93, 37);
+}
+#counter{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    background-image: linear-gradient(rgb(252, 130, 130),rgb(246, 246, 128));
+    align-items: center;
+    justify-content: center;
+}
+#counter-up{
+    height: 200px;
+    width: 80%;
+    text-align: center;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#counter-1{
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    flex-basis: 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+#section-1{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parent-1{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+#child-2{
+    height: 100%;
+    flex-basis: 45%;
+    position: relative;
+    /* border: 1px solid black; */
+}
+#child-3{
+    height: 100%;
+    flex-basis: 45%;
+    position: relative;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+#child-3 button{
+    padding: 10px 40px;
+    background-color: aqua;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#child-2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+#child-2 #imgin{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    border-radius: 10px;
+}
+#map{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    padding: 10px;
+}
+#map1{
+    height: 500px;
+    flex-basis:80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+#map1a{
+    height: 100%;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+    padding: 50px 50px;
+    line-height: 2;
+}
+#map1a h2{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.counter{
+    font-size: 30px;
+}
+#map2a{
+    height: 100%;
+    flex-basis: 45%;
+    /* border: 1px solid black; */
+}
+#map2a iframe{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+#child-3 p{
+    font-size: 18px;
+    color: rgb(73, 73, 73);
+}
+#slider{
+    height: 400px;
+    width: 400px;
+}
+#slider-1 img{
+    height: 350px;
+    width: 350px;
+}
+#footer{
+    height: 200px;
+    width: 100%;
+    border: 1px solid rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+}
+#footer-1{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+#ft1{
+    height: 100%;
+    flex-basis: 25%;
+}

@@ -1,0 +1,671 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(../img/fast-food.jpg);
+    filter: (20);
+}
+#parent-1{
+    height: 120px;
+    width: 80%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+#parent-1 #child-1{
+    flex-basis: 20%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent-1 #child-1 h1{
+    color: white;
+}
+#parent-1 #child-2{
+    flex-basis: 70%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent-1 #child-2 ul{
+    display: flex;
+}
+#parent-1 #child-2 ul li{
+    list-style: none;
+}
+#parent-1 #child-2 ul a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px;
+    color: white;
+}
+#parent-1 #child-2 #btn-1{
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: rgb(253, 253, 134);
+    font-size: 18px;
+    font-weight: bold;
+}
+#section-1{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+}
+#parent-2{
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+#parent-2 #child-3{
+    height: auto;
+    width: 100%;
+    margin-bottom: 100px;
+}
+#parent-2 #child-3{
+    text-align: center;
+}
+#parent-2 #child-3 h1{
+    font-size: 70px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+
+}
+#parent-2 #child-3 p{
+    font-size: 60px;
+    color: rgb(212, 197, 113);
+    font-weight: bold;
+}
+#parent-2 #child-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    justify-content: space-between;
+}
+#child-4 #child-4a{
+    flex-basis: 24%;
+    /* border: 1px solid black; */
+    height: 200px;
+    color: white;
+    padding: 35px;
+
+}
+#child-4 #child-4a img{
+    height: 50%;
+    width: 35%;
+    border-radius: 50%;
+}
+#section-2{
+    /* border: 1px solid black; */
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parent-3{
+    height: 100%;
+    width: 80%;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-2 #parent-3 #child-5{
+    height: 80%;
+    flex-basis: 25%;
+    /* border: 1px solid black; */
+}
+#section-2 #parent-3 #child-5 img{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-right: 10px;
+}
+#section-2 #parent-3 #child-6{
+    height: 80%;
+    flex-basis: 25%;
+    /* border: 1px solid black; */
+}
+#section-2 #parent-3 #child-6 img{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+#section-2 #parent-3 #child-7{
+    height: 95%;
+    flex-basis: 40%;
+    /* border: 1px solid black; */
+}
+#section-2 #parent-3 #child-7{
+    padding: 30px;
+    height: 60%;
+}
+#child-7 h2{
+    font-size: 58px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+}
+#child-7 h3{
+    font-size: 50px;
+}
+#child-7 p{
+    font-size: 22px;
+    color: rgb(114, 114, 114);
+}
+#section-3{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-3 #parent-4{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+#section-3 #parent-4 #child-9{
+    height: 100%;
+    flex-basis: 20%;
+    /* border: 1px solid black; */
+    padding-top: 20px;
+}
+#section-3 #parent-4 #child-9 h1{
+    color: rgb(212, 197, 113);
+    font-size: 50px;
+}
+#section-3 #parent-4 #child-9 p{
+    font-size: 22px;
+    color: rgb(122, 122, 119);
+    line-height: 1.2;
+}
+#section-4{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: center;
+    display: flex;
+    background-color: rgb(231, 229, 229);
+}
+#section-4 #parent-5{
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+#section-4 #parent-5 #child-10{
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#section-4 #parent-5 #child-11{
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-4 #parent-5 #child-11 #sub-child{
+    flex-basis: 30%;
+    /* border: 1px solid black; */
+    height:auto;
+    text-align: center;
+}
+#section-4 #parent-5 #child-11 #sub-child img{
+    height: 100px;
+    width: 100px;
+}
+#section-4 #parent-5 #child-11 #sub-child h2{
+    font-size: 25px;
+}
+#section-4 #parent-5 #child-11 #sub-child p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(138, 138, 138);
+}
+#section-4 #parent-5 #child-10 {
+    text-align: center;
+}
+#section-4 #parent-5 #child-10 h1{
+    font-size: 100px;
+    margin-bottom: -60px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+}
+#section-4 #parent-5 #child-10 h2{
+    font-size: 48px;
+}
+#section-5{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+#section-5 #parent-6{
+    height: auto;
+    width: 70%;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+#section-5 #parent-6 #child-13{
+    height: 40vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#section-5 #parent-6 #child-14{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#section-5 #parent-6 #child-14 #child-12{
+    height: 250px;
+    flex-basis: 25%;
+    /* border: 1px solid black; */
+}
+#section-5 #parent-6 #child-14 #child-12 img{
+    height: 100%;
+    width: 100%;
+}
+#section-5 #parent-6 #child-14 #child-12 h2{
+    font-size: 40px;
+    padding: 5px;
+}
+#section-5 #parent-6 #child-14 #child-12 p{
+    font-size: 22px;
+    color: rgb(85, 84, 84);
+    padding: 5px;
+}
+#section-5 #parent-6 #child-14 #child-12 .btn-1{
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(249, 249, 126);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#child-13 h1{
+    font-size: 58px;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+}
+#child-13 p{
+    font-size: 22px;
+    color: rgb(62, 62, 62);
+    /* font-weight: bold; */
+    text-align: center;
+}
+#section-11{
+    /* border: 1px solid; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgb(227, 68, 68),rgb(80, 80, 241),black);
+    background-attachment: fixed;
+    align-items: center;
+}
+#section-11 #parent-11{
+    height: 100%;
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section-11 #parent-11 h1{
+    font-size: 60px;
+    
+    color: rgb(255, 229, 81);
+    font-family: 'Dancing Script', cursive;
+}
+#section-11 #parent-11 h2{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#section-11 #parent-11 p{
+    color:white;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+#texta{
+    text-align: center;
+}
+#section-6{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+#parent-7{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 80%;
+    flex-direction: column;
+}
+#parent-7 #child-15{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#parent-7 #child-15 h1{
+    font-size: 60px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+}
+#parent-7 #child-15 p{
+    font-size: 40px;
+    font-weight:bold;
+}
+#parent-7 #child-16{
+    height: auto;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#parent-7 #child-16 #sub-child-2{
+    height: auto;
+    flex-basis: 20%;
+    /* border: 1px solid black; */
+}
+#parent-7 #child-16 #sub-child-2 img{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+#parent-7 #child-16 #sub-child-2 #peta-child{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#section-7{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/meal-1339061_1920.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+    
+}
+#section-7 #parent-8{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+#section-7 #parent-8 #child-17{
+    border: 1px solid white;
+    height: auto;
+    width: 60%;
+    background-color: white;
+    margin-top: 40px;
+}
+#section-7 #parent-8 #child-17 h1{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+    padding-top: -300px;
+    color: rgb(212, 197, 113); 
+    margin-bottom: -50px;   
+}
+#section-7 #parent-8 #child-17 p{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#section-7 #parent-8 #child-18{
+    border: 1px solid white;
+    height: auto;
+    width: 60%;
+}
+#child-input{
+    height: auto;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#child-input p{
+    font-size: 22px;
+}
+#input{
+    flex-basis: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+#input input{
+    height: 40px;
+    width: 95%;
+}
+#input select{
+    height: 40px;
+    width: 95%;
+}
+#input-1{
+    flex-basis: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+#input-1 input{
+    height: 40px;
+    width: 95%;
+}
+#input-1 select{
+    height: 40px;
+    width: 95%;
+}
+#section-8{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#parent-9{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    flex-direction: column;
+}
+#child-19{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#child-19 h1{
+    font-size: 60px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+}
+#child-19 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+#child-20{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#child-20 img{
+    height: 35%;
+    width: 35%;
+    border-radius: 50%;
+}
+#child-20 #sub-child-3{
+    flex-basis: 25%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 70px;
+}
+#child-20 #sub-child-3 p{
+    color: rgb(86, 83, 83);
+}
+#child-20 #sub-child-3 h2{
+    color: blue;
+}
+#section-9{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+#parent-10{
+    height:auto;
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+#section-9 #parent-10 #child-21{
+    /* border: 1px solid black; */
+    height: auto;
+    flex-basis: 30%;
+}
+#section-9 #parent-10 #child-21 img{
+    height: 70%;
+    width: 100%;
+}
+#section-9 #parent-10 #child-21 p{
+    font-size: 22px;
+    line-height: 3;
+    color: rgb(108, 106, 106);
+}
+#section-9 #parent-10 #child-21 h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#section-9 #parent-10 #child-21 b{
+    color: red;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#section-10{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid ; */
+    text-align: center;
+}
+#section-10 #parent-22{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid ; */
+    text-align: center;
+}
+#parent-22 h1{
+    font-size: 60px;
+    color: rgb(212, 197, 113);
+    font-family: 'Dancing Script', cursive;
+}
+#parent-22 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: rgb(20, 20, 30);
+
+}
+#parent-25{
+    /* border: 1px solid; */
+    height: 300px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    /* border: 1px solid; */
+    flex-basis: 22%;
+    padding: 10px;
+    color: white;
+}
+.footer h2{
+    font-size: 30px;
+}
+.footer p{
+    font-size: 18px;
+    color:white;
+    padding-top: 10px;
+
+}
+.footer img{
+    height: 80%;
+    width: 100%;
+}
+.footer input{
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+#footer-3{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(20, 20, 30);
+}

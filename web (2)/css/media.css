@@ -1,0 +1,241 @@
+@media (min-width:721px) and (max-width:980px){
+    #child-1 h2{
+        font-size: 30px;
+    }
+    #child-2 ul li a{
+        font-size:20px;
+        padding: 5px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-3 #child-5 #sub-child h3{
+        margin-left: 20%;
+    }
+    #section-3{
+        height: auto;
+    }
+    #child-6{
+        height: auto;
+    }
+    #section-3 #parent-4 #child-7 h1{
+        font-size: 20px;
+        line-height: 1.5;
+        padding-top: 5px;
+    }
+    #section-3 #parent-4 #child-7 p{
+        font-size: 15px;
+    }
+    #section-6{
+        height: auto;
+    }
+    #child-c1 p{
+        font-size: 18px;
+    }
+    #child-c1b h2{
+        font-size: 20px;
+    }
+    #child-c1a{
+        margin-left: 25%;
+    }
+    #child-c{
+        text-align: center;
+    }
+    #child-c2{
+        flex-direction: column;
+        height:70px;
+    }
+    #child-c1b p{
+        font-size: 12px;
+    }
+    footer{
+        height: auto;
+        margin-top: 20px;
+    }
+    #parent-8{
+        height: auto;
+        text-align: left;
+        flex-direction: column;
+    }
+}
+@media (min-width:481px) and (max-width:720px){
+    #child-1 h2{
+        font-size: 30px;
+    }
+    #child-2 ul li a{
+        font-size:20px;
+        padding: 5px;
+    }
+    #parent-2 #child-3 h1{
+        font-size: 40px;
+    }
+    #parent-2 #child-3 p{
+        font-size: 18px;
+    }
+    #btn-1{
+        margin-bottom: 5px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-3 #child-5 {
+        flex-direction: column;
+    }
+    #parent-3 #child-5 #sub-child h3{
+        margin-left: 40%;
+    }
+    #parent-3 #child-4 h3{
+        margin-left: 41%;
+    }
+    #parent-4{
+        flex-direction: column;
+        flex-basis: 60%;
+    }
+    #section-3{
+        height: 800px;
+    }
+    #section-3 #parent-4 #child-7 h1{
+        font-size: 30px;
+    }
+    #section-3 #parent-4 #child-7 p{
+        font-size: 18px;
+    }
+    #section-5{
+        height: auto;
+        width: 100%;
+    }
+    #parent-6{
+        height: auto;
+        width: 100%;
+    }
+    #child-9{
+        flex-direction: column;
+    }
+    #child-10{
+        flex-direction: column;
+    }
+    #section-5 #parent-6 #child-10 #sub-child-1 #sub-child-b p{
+        font-size: 22px;
+    }
+    #sub-child-1{
+        flex-direction: column;
+    }
+    #section-5 #parent-6 #child-9 #sub-child-1 #sub-child-b p{
+        font-size: 22px;
+    }
+    #sub-child-1 #sub-child-a i{
+        font-size: 20px;
+        padding-left: 50px;
+        line-height: 1.5;
+    }
+    #section-6{
+        height: auto;
+    }
+    #child-12{
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+    }
+    #parent-8{
+        height: auto;
+        text-align: left;
+        flex-direction: column;
+    }
+    #child-c2{
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    #child-c2 img{
+        height: 10px;
+        width: 10px;
+    }
+}
+@media (min-width:0px) and (max-width:480px){
+    #child-1 h2{
+        font-size: 25px;
+    }
+    #child-2 ul li a{
+        font-size: 12px;
+        padding: 4px;
+    }
+    #parent-2 #child-3 h1{
+        font-size: 20px;
+    }
+    #parent-2 #child-3 p{
+        font-size: 18px;
+    }
+    #btn-1{
+        margin-bottom: 5px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-3 #child-4 h3{
+        margin-left: 35%;
+    }
+    #parent-3 #child-5 {
+        flex-direction: column;
+    }
+    #parent-4{
+        flex-direction: column;
+    }
+    #section-3{
+        height: 100vh;
+    }
+    #section-3 #parent-4 #child-7 h1{
+        font-size: 20px;
+        line-height: 1.5;
+        padding-top: 5px;
+    }
+    #section-3 #parent-4 #child-7 p{
+        font-size: 15px;
+    }
+    #section-5{
+        height: auto;
+        width: 100%;
+    }
+    #parent-6{
+        height: auto;
+        width: 100%;
+    }
+    #child-9{
+        flex-direction: column;
+    }
+    #child-10{
+        flex-direction: column;
+    }
+    #section-5 #parent-6 #child-10 #sub-child-1 #sub-child-b p{
+        font-size: 15px;
+    }
+    #sub-child-1{
+        flex-direction: column;
+    }
+    #section-5 #parent-6 #child-9 #sub-child-1 #sub-child-b p{
+        font-size: 15px;
+    }
+    #sub-child-1 #sub-child-a i{
+        font-size: 20px;
+        padding-left: 50px;
+        line-height: 1.5;
+    }
+    #section-6{
+        height: auto;
+    }
+    #child-12{
+        flex-direction: column;
+    }
+    footer{
+        height: auto;
+    }
+    #parent-8{
+        flex-direction: column;
+    }
+    #parent-8{
+        height: auto;
+        text-align: left;
+    }
+
+}

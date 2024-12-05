@@ -1,0 +1,431 @@
+
+@media (min-width:721px) and (max-width:980px) {
+    
+    #parent{
+        display:flex;
+    }
+    #child-2 ul li a{
+        font-size: 20px;
+    }
+    #child-1 img{
+        width: 100%;
+        height: 100%;
+    }
+        #parent-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    #parent-1 h1{
+        font-size: 40px;
+    }
+    #parent-1 p{
+        font-size: 18px;
+    }
+    #chid-4 img{
+        position: center;
+        
+    }
+        .service{
+        margin-top: 70%;
+    }
+    #parent-2{
+        flex-direction: column;
+    }
+    #child-5{
+        height: 50px;
+    }
+    .service{
+        margin-top: 70%;
+    }
+    #service{
+        width: 100%;
+
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        flex-direction: column;
+    }
+    #child-5{
+        height: auto;
+    }
+    #child-5 h2{
+        font-size: 25px;
+    }
+    #service h2{
+        font-size: 40px;
+    }
+    #section-3{
+        display: flex;
+        height: 700px;
+    }
+    #parent-3{
+        height: 100%;
+        width: 70%;
+        flex-direction: column;
+    }
+    #section-3{
+        display: flex;
+        height: auto;
+    }
+    #parent-3{
+        height: 900px;
+        flex-direction: column;
+    }
+    #child-6 p{
+        line-height: 1.2;
+    }
+    #child-6 .btn-2{
+        margin-bottom: 40px;
+    }
+    #section-4{
+        display: flex;
+        height: 700px;
+        margin-top: 50px;
+    }
+    #parent-4{
+        height: 100%;
+        flex-direction: column;
+    }
+    #service h2{
+        font-size: 40px;
+    }
+        #section-4{
+        display: flex;
+        height: 700px;
+        margin-top: 50px;
+    }
+    #parent-4{
+        height: 100%;
+        flex-direction: column;
+    }
+    #service-1 h2{
+        font-size: 20px;
+    }
+    #child-7 h2{
+        font-size: 30px;
+    }
+    #child-7 p{
+        font-size: 15px;
+    }
+    #child-7 #btn-3{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    #service-1 h2{
+        padding: 0;
+        
+    }
+    #service-1 p{
+        padding: 0;
+    }
+    #child-8{
+        margin-top: 10%;
+    }
+    #child-8 h1{
+        font-size:50px;
+    }
+    #child-9{
+        flex-direction: column;
+    }
+    #peta-child{
+        margin-bottom: 40px;
+    }
+    #child-14 input{
+        width: 100%;
+    }
+    #child-16 textarea{
+        width: 100%;
+        height: 160px;
+        margin-left: 20px;
+    }
+    #child-16 button{
+        margin-left: 20px;
+    }
+    
+    #parent-8{
+        flex-direction: column;
+    }
+    #child-15 input{
+        border: 1px solid black;
+    }
+}
+@media (min-width:481px) and (max-width:720px) {
+    
+    #parent{
+        display:flex;
+    }
+    #child-2 ul li a{
+        font-size: 20px;
+    }
+    #child-1 img{
+        width: 100%;
+        height: 100%;
+    }
+        #parent-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    #parent-1 h1{
+        font-size: 40px;
+    }
+    #parent-1 p{
+        font-size: 18px;
+    }
+    #chid-4 img{
+        position: center;
+        
+    }
+        .service{
+        margin-top: 70%;
+    }
+    #parent-2{
+        flex-direction: column;
+    }
+    #child-5{
+        height: 50px;
+    }
+    .service{
+        margin-top: 70%;
+    }
+    #service{
+        width: 100%;
+
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        flex-direction: column;
+    }
+    #child-5{
+        height: auto;
+    }
+    #child-5 h2{
+        font-size: 25px;
+    }
+    #service h2{
+        font-size: 40px;
+    }
+    #section-3{
+        display: flex;
+        height: 700px;
+        padding-bottom: 50px;
+    }
+    #parent-3{
+        height: 100%;
+        width: 70%;
+        flex-direction: column;
+    }
+    #child-6 p{
+        line-height: 1.2;
+    }
+    #child-6 .btn-2{
+        margin-bottom: 40px;
+    }
+    #section-4{
+        display: flex;
+        height: 700px;
+        margin-top: 50px;
+    }
+    #parent-4{
+        height: 100%;
+        flex-direction: column;
+    }
+    #service-1 h2{
+        font-size: 40px;
+    }
+        #section-4{
+        display: flex;
+        height: 700px;
+        margin-top: 50px;
+    }
+    #parent-4{
+        height: 100%;
+        flex-direction: column;
+    }
+    #service-1 h2{
+        font-size: 20px;
+    }
+    #child-7 h2{
+        font-size: 30px;
+    }
+    #child-7 p{
+        font-size: 15px;
+    }
+    #child-7 #btn-3{
+        font-size: 10px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #service-1 h2{
+        padding: 0;
+        
+    }
+    #service-1 p{
+        padding: 0;       
+    }
+        #child-8 h1{
+        font-size: 35px;
+        margin-top: 60px;
+    }
+    #child-9{
+        flex-direction: column;
+    }
+    #peta-child{
+        margin-bottom: 40px;
+    }
+    #child-11{
+        flex-direction: column;
+    }
+    #child-a{
+        width: 50%;
+        margin-left: 25%;    
+    }
+    #child-14{
+        flex-direction: column;
+    }
+    #child-14 input{
+        width: 100%;
+    }
+    #child-16 textarea{
+        width: 100%;
+        height: 150px;
+    }
+    
+    #parent-8{
+        flex-direction: column;
+    }
+    #child-13 h2{
+        font-size: 40px;
+        margin-top: 1000px;
+    }
+}
+@media (min-width:0px) and (max-width:480px) {
+    #child-2 ul li a{
+        font-size: 15px;
+        padding: 8px;
+    }
+    #child-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    #parent-1{
+        flex-direction: column;
+        text-align: center;
+    }
+    #parent-1 h1{
+        font-size: 25px;
+    }
+    #parent-1 p{
+        font-size: 18px;
+    }
+    #chid-4 img{
+        position: center;
+        
+    }
+    .service{
+        margin-top: 70%;
+    }
+    #service{
+        width: 100%;
+
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        flex-direction: column;
+    }
+    #child-5{
+        height: auto;
+    }
+    #child-5 h2{
+        font-size: 25px;
+    }
+    #service h2{
+        font-size: 40px;
+    }
+    #section-3{
+        display: flex;
+        height: 700px;
+    }
+    #parent-3{
+        height: 100%;
+        flex-direction: column;
+    }
+    #child-6 h2{
+        padding-top: 20px;
+    }
+    #child-6 p{
+        line-height: 1.2;
+        font-size: 15px;
+        padding-bottom: -10px;
+    }
+    #section-4{
+        display: flex;
+        height: 700px;
+        margin-top: 50px;
+    }
+    #parent-4{
+        height: 100%;
+        flex-direction: column;
+    }
+    #service-1 h2{
+        font-size: 20px;
+    }
+    #child-7 h2{
+        font-size: 30px;
+    }
+    #child-7 p{
+        font-size: 15px;
+    }
+    #child-7 #btn-3{
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    #service-1 h2{
+        padding: 0;
+        
+    }
+    #service-1 p{
+        padding: 0;
+    }
+    #child-8 h1{
+        font-size: 25px;
+    }
+    #child-9{
+        flex-direction: column;
+    }
+    #peta-child{
+        margin-bottom: 40px;
+    }
+    #child-11{
+        flex-direction: column;
+    }
+    #parent-6 #child-10 h2{
+        font-size: 30px;
+    }
+    #parent-6 #child-10 p{
+        font-size: 15px;
+    }
+    #child-14{
+        flex-direction: column;
+    }
+    #child-14 input{
+        width: 100%;
+    }
+    #child-16 textarea{
+        width: 100%;
+        height: 120px;
+    }
+    #parent-8{
+        flex-direction: column;
+    }
+    #child-13 h2{
+        font-size: 20px;
+        margin-top: 1000px;
+    }
+}   
+

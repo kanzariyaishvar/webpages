@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: url(bouquet-3175315_1920.jpg);
+}
+#parent{
+   height: 120px;
+   width: 100%;
+   display: flex;
+   position: sticky;
+   background-color: rgb(246, 197, 233);
+   top: 0;
+   
+}
+#child-1{
+    flex-basis: 15%;
+}
+#child-1 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    text-shadow: 2px 2px 10px black;
+}
+#child-2{
+    flex-basis: 70%;
+}
+#child-2 ul{
+    display: flex;
+}
+#child-2 ul li{
+    list-style: none;
+    margin-left: 10%;
+}
+#child-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    padding: 15px;
+    transition: 0.5s;
+    color: black;
+}
+#child-2 a:hover{
+    color: red;
+}
+#child-3{
+    flex-basis: 15%;
+    padding: 40px 0px 0px 0px;
+}
+.ri-service-fill{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.ri-contacts-fill{
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.ri-shopping-cart-2-fill{
+    font-size: 50px;
+    padding-top: 20px;
+}
+#text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+#text h1{
+    font-size: 100px;
+}
+#text p{
+    font-size: 40px;
+    margin-bottom: 10%
+}
+#text a{
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 40px 10px 40px;
+}
+#about {
+   height: 200px;
+   width: 100%;
+}
+#about h1{
+   font-size: 40px;
+   text-align: center;
+   padding-top: 70px;
+}
+#about-sec{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#about-img{
+    height: 100%;
+    flex-basis: 40%;    
+}
+#about-img img{
+    height: 100%;
+    width: 100%;
+}
+#about-text{
+    height: 100%;
+    flex-basis: 40%;    
+
+}
+#about-text span{
+    font-size: 30px;
+}
+#about-text p{
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+#about-text a{
+    border: 1px solid black;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 30px;
+}
+#forbox{
+    height: auto;
+    width: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+#forbox i{
+    font-size: 35px;
+}
+#forbox1{
+    flex-basis: 16.5%;
+    height: 100px;
+    width: 150px;
+    border-left: 1px solid inherit;
+    border-top: 1px solid inherit;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding:15px;
+    box-shadow:8px 8px 6px  4px black;
+}
+#forbox2{
+    flex-basis: 16.5%;
+    height: 100px;
+    width: 150px;
+    border-left: 1px solid inherit;
+    border-top: 1px solid inherit;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding:15px;
+    box-shadow:8px 8px 6px  4px black;
+}
+#forbox3{
+    flex-basis: 16.5%;
+    height: 100px;
+    width: 150px;
+    border-left: 1px solid inherit;
+    border-top: 1px solid inherit;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding:15px;
+    box-shadow:8px 8px 6px  4px black;
+}
+#forbox4{
+    flex-basis: 16.5%;
+    height: 100px;
+    width: 150px;
+    border-left: 1px solid inherit;
+    border-top: 1px solid inherit;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding:15px;
+    box-shadow:8px 8px 4px  4px black;
+}
+#Latest-Flowers{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+#latest{
+    height: 700px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+}
+#flower1{
+    flex-basis: 25.1%;
+    height: 300px;
+    text-align: center;
+}
+#flower2{
+    flex-basis: 25.1%;
+    height: 300px;
+    text-align: center;
+}
+#flower3{
+    flex-basis: 25.1%;
+    height: 300px;
+    text-align: center;
+}
+#flower4{
+    flex-basis: 25.1%;
+    height: 300px;
+    text-align: center;
+}
+#flower5{
+    flex-basis: 25.1%;
+    height: 300px;
+    text-align: center;
+}
+#flower6{
+    flex-basis: 25.1%;
+    height: 300px;
+    text-align: center;
+}
+#latest img{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+#review{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 2%;
+    word-spacing: 15px;
+    margin-bottom: 5%;
+}
+#reviewbox p{
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 1.3;
+}
+#reviewbox{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#review-1{
+    height: 160px;
+    flex-basis: 24%;
+    border: 1px solid black;
+    box-shadow:8px 8px 4px  4px black;
+}
+#review-2{
+    height: 160px;
+    flex-basis: 24%;
+    border: 1px solid black;
+    box-shadow:8px 8px 4px  4px black;
+}
+#review-3{
+    height: 160px;
+    flex-basis: 24%;
+    border: 1px solid black;
+    box-shadow:8px 8px 4px  4px black;
+}
+#contact{
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact-1{
+    height: 400px;
+    flex-basis: 40%;
+    line-height: 1.8;
+    padding: 20px;
+    border-left: 1px solid inherit;
+    border-top: 1px solid inherit;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow:8px 8px 4px  4px black;
+}
+#contact-1 .submit{
+    padding: 10px 25px 10px 25px;
+    border: 1px solid black;
+    
+}
+#contact-2{
+    height: 500px;
+    flex-basis: 45%;
+
+}
+#contact-2 img{
+    height: 100%;
+    width: 100%;
+}
+#footer{
+    height: 300px;
+    width: 100%;
+    margin-top: 10%;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.4;
+    text-transform: capitalize;
+}
+#footer-1{
+    flex-basis: 22%;
+    height: 100%;
+    
+}
+#footer-2{
+    flex-basis: 22%;
+    height: 100%;
+    
+}
+
+#footer-3{
+    flex-basis: 22%;
+    height: 100%;
+    
+}
+
+#footer-4{
+    flex-basis: 22%;
+    height: 100%;
+    
+}

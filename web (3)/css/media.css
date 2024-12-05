@@ -1,0 +1,419 @@
+@media (min-width:721px) and (max-width:980px){
+    #logo{
+        font-size: 30px;
+    }
+    #nav ul li a {
+        font-size: 18px;
+        padding: 10px;
+    }
+    #btn {
+        
+       width: 20%;
+    }
+    #btn button{
+        padding: 5px 5px;
+        font-size: 20px;
+    }
+    #parent-1 #text h2{
+        font-size: 30px;
+    }
+    #parent-1 #text p{
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+    #section-1 #parent-1 #roket img{
+        height: 300px;
+        width: 200px;
+        margin-left: 150px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        /* flex-direction: column; */
+        height: auto;
+        width: 100%;
+    }
+    .box{
+        height: 100px;
+        width: 100%;
+    }
+    .box-1{
+        height: 100px;
+        width: 100%;
+        margin-left: 30px;
+    }
+    #child-1 .p{
+        font-size: 17px;
+        line-height: 1;
+    }
+    .child-2a{
+        width: 25%;
+        height: auto;
+    }
+    #section-3 #parent-3 #child-3 .child-2b{
+        width: 25%;
+        height: auto;
+    }
+    #section-3 #parent-3 #child-3 .child-2a{
+        width: 25%;
+        height: auto;
+    }
+    #child-5 h2{
+        font-size: 20px;
+        padding: 10px;
+    }
+    #child-5 h3{
+        font-size: 18px;
+    }
+    #child-4 img{
+        height: 88%;
+        padding-left: 0;
+        width: 50%;
+    }
+    #child-7 h2{
+        font-size: 20px;
+    }
+    #child-7 .btn-5{
+        font-size: 20px;
+        padding: 5px;
+    }
+    #child-11 h2r{
+        font-size: 35px;
+        line-height: 1;
+    }
+    #child-11 p{
+        font-size: 17px;
+
+    }
+    #section-13{
+        height: auto;
+        margin-top: 200px;
+        padding-bottom: 100px;
+    }
+    #parent-13{
+        height: auto;
+    }
+    #section-6 img{
+        height: 270px;
+        margin-left: 30px;
+    }
+}
+@media (min-width:481px) and (max-width:720px){
+    #logo{
+        font-size: 30px;
+    }
+    #nav ul li a {
+        font-size: 18px;
+        padding: 10px;
+    }
+    #btn {
+        
+       width: 20%;
+    }
+    #btn button{
+        padding: 5px 20px;
+        font-size: 16px;
+    }
+    #section-1{
+        top: 35%;
+    }
+    #btn button{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    #parent-1 #text h2{
+        font-size: 30px;
+    }
+    #parent-1 #text p{
+        font-size: 18px;
+        padding-bottom: 0px;
+    }
+    #section-1 #parent-1 #roket img{
+        height: 200px;
+        width: 100px;
+        margin-left: 150px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        flex-direction: column;
+        height: auto;
+    }
+    .box{
+        height: 100px;
+        width: 100%;
+    }
+    .box-1{
+        height: 100px;
+        width: 100%;
+        margin-left: 30px;
+    }
+    #child-3{
+        flex-direction: column;
+    }
+    #section-4{
+        height: auto;
+    }
+    #section-5 #parent-5 #child-6{
+        width: 20%;
+    }
+    #parent-4{
+        flex-direction: column;
+    }
+    #child-5 h2{
+        font-size: 30px;
+    }
+    #child-7 h2{
+        font-size: 18px;
+    }
+    #child-7 .btn-5{
+        font-size: 10px;
+        padding: 5px;
+    }
+    #child-10{
+        flex-direction: column;
+    }
+    #section-10{
+        height: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+    #parent-10{
+        height: auto;
+        flex-direction: column;
+    }
+    #section-12{
+        height: auto;
+    }
+    #parent-12{
+        flex-direction: column;
+        height: auto;
+    }
+    #child-12{
+        height: auto;
+    }
+    #section-11{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #parent-11{
+        height: auto;
+    }
+    #section-13{
+        height: auto;
+    }
+    #parent-13{
+        flex-direction: column;
+    }
+    #section-3 #parent-3 #child-3 .child-2b{
+        margin-bottom: 40px;
+        
+    }
+    #section-6{
+        height: auto;
+    }
+    #parent-6{
+        height: auto;
+        flex-direction: column;
+    }
+    #child-42{
+        flex-direction: column;
+        height: auto;
+    }
+    #child-44{
+        height: auto;
+        margin-bottom: 100px;
+    }
+    #child-43{
+        flex-direction: column;
+        height: auto;
+    }
+    #child-45{
+        height: auto;
+        margin-bottom: 100px;
+        width: 335px;
+        margin-top: 0px;
+    }
+    #section-7{
+        height: auto;
+    }
+    #parent-7{
+        height: auto;
+    }
+    #child-10{
+        height: auto;
+    }
+    #child-10a{
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    #child-10b{
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width:0px) and (max-width:480px){
+    #logo{
+        font-size: 20px;
+    }
+    #nav ul li a {
+        font-size: 12px;
+        padding: 5px;
+    }
+    #btn {
+        
+       width: 20%;
+    }
+    #section-1{
+        top: 15%;
+    }
+    #btn button{
+        padding: 5px 20px;
+        font-size: 10px;
+    }
+    #parent-1{
+        flex-direction: column;
+    }
+    #parent-1 #text h2{
+        font-size: 20px;
+    }
+    #parent-1 #text p{
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    #section-1 #parent-1 #roket img{
+        height: 200px;
+        width: 100px;
+        margin-left: 150px;
+        rotate: 45deg;
+    }
+    #section-2{
+        height: auto;
+    }
+    #section-12{
+        height: auto;
+    }
+    #parent-12{
+        flex-direction: column;
+        height: auto;
+    }
+    #child-12{
+        height: auto;
+        margin-bottom: 50px;
+    }
+    #parent-2{
+        flex-direction: column;
+        height: auto;
+    }
+    .box{
+        height: 100px;
+        width: 100%;
+    }
+    .box-1{
+        height: 100px;
+        width: 100%;
+        margin-left: 30px;
+    }
+    #child-3{
+        flex-direction: column;
+    }
+    #section-3 #parent-3 #child-3 .child-2b{
+        margin-bottom: 40px;
+    }
+    #section-4{
+        height: auto;
+    }
+    #parent-4{
+        flex-direction: column;
+    }
+    #child-5 h2{
+        font-size: 30px;
+    }
+    #section-5{
+        height: auto;
+    }
+    #parent-5{
+        flex-direction: column;
+        height: auto;
+    }
+    #section-7{
+        height: auto;
+    }
+    #parent-7{
+        height: auto;
+    }
+    #child-10{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #child-10b{
+        margin-bottom: 20px;
+    }
+    #child-7{
+        width: 80%;
+    }
+    #child-6{
+        margin-bottom: 10px;
+    }
+    #headding{
+        height: auto;
+    }
+    #hedding p{
+        font-size: 20px;
+    }
+    #section-6{
+        height: auto;
+    }
+    #parent-6{
+        height: auto;
+        flex-direction: column;
+    }
+    #child-42{
+        flex-direction: column;
+        height: auto;
+    }
+    #child-44{
+        height: auto;
+        margin-bottom: 100px;
+    }
+    #child-43{
+        flex-direction: column;
+        height: auto;
+    }
+    #child-45{
+        height: auto;
+        margin-bottom: 100px;
+        width: 335px;
+        margin-top: 0px;
+    }
+    #child-10{
+        flex-direction: column;
+    }
+    #section-10{
+        height: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+    #parent-10{
+        height: auto;
+        flex-direction: column;
+    }
+    #parent-12{
+        flex-direction: column;
+    }
+    #section-11{
+        height: auto;
+    }
+    #parent-11{
+        height: auto;
+    }
+    #section-13{
+        height: auto;
+    }
+    #parent-13{
+        flex-direction: column;
+    }
+}

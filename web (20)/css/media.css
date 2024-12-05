@@ -1,0 +1,154 @@
+@media (min-width:721px) and (max-width:980px){
+    .carocusel-caption{
+        bottom: 165px;
+    }
+    .w-100{
+        height: 100vh;
+    }
+}
+@media (min-width:481px) and (max-width:720px){
+    .carocusel-caption{
+        bottom: 165px;
+    }
+    .w-100{
+        height: 100vh;
+    }
+    #section-4{
+        height: auto;
+    }
+    #parent-3{
+        height: auto;
+        flex-direction: column;
+    }
+    #parent-2 h1{
+         font-size: 40px;
+    }
+    #team{
+        height: 400px;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    #section-3{
+        height: auto;
+    }
+    #parent-1{
+        height: auto;
+        flex-direction: column;
+    }
+    #parent-3{
+        width: 100%;
+    }
+    #section-5  {
+        height: auto;
+    }
+    #child-5{
+        height: auto;
+        flex-direction: column;
+    }
+    #child-5a{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    footer{
+        height: 100%;
+        margin-top: 650px;
+    }
+    #footer{
+        height: auto;
+        flex-direction: column;
+
+    }
+}
+@media (min-width:0px) and (max-width:480px){
+    .carousel-caption{
+        bottom: 165px;
+    }
+    .w-100{
+        height: 100vh;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 15px;
+    }
+    .carousel-caption button{
+        font-size: 10px;
+        padding: 10px 40px;
+    }
+    #navbarSupportedContent{
+        background-color: black;
+        text-align: center;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    #peta-child{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+    #section-4{
+        height: auto;
+    }
+    #parent-3{
+        height: auto;
+        flex-direction: column;
+    }
+    #parent-2 h1{
+         font-size: 40px;
+    }
+    #team{
+        height: 400px;
+        width: 250px;
+        margin-bottom: 10px;
+    }
+    #section-3{
+        height: auto;
+    }
+    #parent-1{
+        height: auto;
+        flex-direction: column;
+    }
+    #peta-child-1{
+        flex-direction: column;
+    }
+    #chid-b{
+        border: none;
+    }
+    #chid-c{
+        border: none;
+    }
+    #chid-d{
+        border: none;
+    }
+    #chid-e{
+        border: none;
+    }
+    #section-5  {
+        height: auto;
+    }
+    #child-5{
+        height: auto;
+        flex-direction: column;
+    }
+    #child-5a{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    footer{
+        height: 100%;
+        margin-top: 650px;
+    }
+    #footer{
+        height: auto;
+        flex-direction: column;
+
+    }
+    
+}

@@ -1,0 +1,138 @@
+@media (min-width:769px) and (max-width:992px){
+    nav{
+        position: relative;
+        /* background-color: black; */
+    }
+    nav .bi-search{
+        position: absolute;
+        top: 20px;
+        right: 100px;
+    }
+    nav li a{
+        text-align: end;
+    }
+    #child-1{
+        top: 150px;
+        left: 42px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #parent-2{
+        height: auto;
+    }
+    #child-2ab img{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #child-2 img{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #section-3{
+        height: auto;
+    }
+    #parent-3{
+        height: auto;
+    }
+    #section-4{
+        height: auto;
+    }
+    #parent-4{
+        height: auto;
+    }
+    #section-5{
+        height: auto;
+    }
+    #parent-5{
+        height: auto;
+    }
+    #section-6{
+        height: auto;
+    }
+    #parent-6{
+        height: 300px;
+        width: 90%;
+    }
+    #child-6{
+        width: 100%;
+        border: 1px solid black;
+    }
+    
+    footer{
+        height: auto;
+    }
+    #footer-1{
+        height: auto;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    nav{
+        position: relative;
+        /* background-color: white; */
+    }
+    nav .bi-search{
+        position: absolute;
+        top: 20px;
+        right: 100px;
+    }
+    nav li a{
+        text-align: end;
+    }
+    #child-1{
+        top: 150px;
+        left: 42px;
+    }
+    #section-2{
+        height: auto;
+    }
+    #child-2ab img{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #child-2 img{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #parent-2{
+        height: auto;
+    }
+    #section-3{
+        height: auto;
+    }
+    #parent-3{
+        height: auto;
+    }
+    #section-4{
+        height: auto;
+    }
+    #parent-4{
+        height: auto;
+    }
+    #section-5{
+        height: auto;
+    }
+    #parent-5{
+        height: auto;
+    }
+    #section-6{
+        height: auto;
+    }
+    #parent-6{
+        height: auto;
+    }
+        #parent-6{
+        height: 300px;
+        width: 90%;
+    }
+    #child-6{
+        width: 100%;
+        border: 1px solid black;
+    }
+    footer{
+        height: auto;
+    }
+    #footer-1{
+        height: auto;
+    }
+}

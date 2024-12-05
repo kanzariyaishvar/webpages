@@ -1,0 +1,48 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper{
+    height: 490px;
+    width: 500px;
+    background-color: lightgray;
+}
+.swiper-slide p{
+    font-size: 18px;
+    margin-top: 195px;
+    text-transform: capitalize;
+    color: red;
+    margin-bottom: 10px;
+}
+.swiper-slide h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.swiper-slide b{
+    color: red;
+    border-bottom: 2px solid red;
+}

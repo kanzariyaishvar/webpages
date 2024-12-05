@@ -1,0 +1,689 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/f2.png);
+    background-attachment: fixed;
+}
+#head{
+    height: 80px;
+    margin-left: 10%;
+    width: 80%;
+    padding-top: 3%;
+}
+#logo{
+    height:100%;
+    width: 40%;
+    float: left;
+}
+#logo h3{
+    font-size: 20px;
+    font-weight:800;
+    color: aliceblue;
+}
+#logo p{
+    font-size: 14px;
+    color: aliceblue;
+}
+#watch{
+    height:100%;
+    width: 20%;
+    float: left;
+}
+#watch p{
+    font-size: 20px;
+    color: aliceblue;
+}
+#watch strong{
+    color: aliceblue;
+}
+#call{
+    height:100%;
+    width: 20%;
+    float: left;
+    color: aliceblue;
+    font-size: 18px;
+}
+#icon{
+    height:100%;
+    width: 20%;
+    float: left;
+}
+#nav{
+    height: 80px;
+    width: 90%;
+    border: 1px solid inherit;
+    background-color:inherit;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#navbar{
+    height: 100%;
+    width: 90%;
+    float: left;
+}
+#logo-2{
+    height: 100%;
+    width: 10%;
+    float: left;
+}
+#logo-2 img{
+    height: 100%;
+    width: 100%;
+}
+#navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 75px;
+    padding: 15px;
+    transition: 1.5s;
+    font-weight: bold;
+}
+#a1{
+    color:rgba(0, 255, 72, 0.667) ;
+}
+#a2{
+    color:white ;
+
+}
+#a2:hover{
+    color: #00ff48aa;
+}
+#a1:hover{
+    color: white;
+}
+#text{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 12%;
+    left: 5%;
+    color: whitesmoke;
+}
+#text h2{
+    font-size: 40px;
+}
+.head-p{
+    margin-bottom: 60px;
+}
+#text a{
+    text-decoration: none;
+    border: 1px solid inherit;
+    padding:15px 30px 15px 30px;
+    margin-top: 20px;
+}
+.button-1 {
+    margin-left: 20px;
+    color: white;
+    background-color:red;
+    font-weight: bold;
+    transition: 1.5s;
+    border-radius: 10px;
+}
+.button-2 {
+    color:red;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: white;
+    transition: 1.5s;
+}
+#text a:hover{
+    border-radius: 50px;
+}
+#section-1{
+    height: 110vh;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+}
+#img{
+    height: 100%;
+    width: 45%;
+    float: left;
+}
+#img img{
+    height: 100%;
+    width: 100%;
+    
+}
+#text-section{
+    height: 100%;
+    width: 55%;
+    float: left;
+}
+#text-section p{
+    padding-left: 50px;
+}
+#text-section b{
+    padding-left: 50px;
+}
+#online-course{
+    height: 180px;
+    width: 95%;
+    transition: 1.5s;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    margin-left: 5%;
+}
+#online-course h2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#certificates{
+    height: 180px;
+    width: 95%;
+    transition: 1.5s;
+    margin-left: 5%;
+    background-color: whitesmoke;
+}
+#certificates h2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#Expert{
+    height: 180px;
+    margin-top: 10px;
+    width: 95%;
+    transition: 1.5s;
+    margin-left: 5%;
+    background-color: whitesmoke;
+}
+#Expert h2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+#text-section h1{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+#text-section h3{
+    padding-left: 50px;
+    margin-top: 55px;
+}
+#online-course:hover{
+    background-color: aqua;
+}
+#Expert:hover{
+    background-color: aqua;
+}
+#certificates:hover{
+    background-color: aqua;
+}
+#SUCCESS-STORIES{
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin-top: 5.5%;
+    background-image: url(../img/swan-16736_1280.jpg);
+    background-attachment: fixed;
+}
+#SUCCESS-STORIES-1 h3{
+    font-size: 40px;
+}
+#SUCCESS-STORIES-1{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    padding-left: 100px;
+    color:black;
+    padding-top: 0px;
+}
+#STORIES-1{
+    height: 100%;
+    width: 25%;
+    float: left;
+    padding-top: 60px;
+}
+#STORIES-2{
+    height: 100%;
+    width: 25%;
+    float: left;
+    padding-top: 60px;
+}
+#STORIES-3{
+    height: 100%;
+    width: 25%;
+    float: left;
+    padding-top: 60px;
+}
+#STORIES-4{
+    height: 100%;
+    width: 25%;
+    float: left;
+    padding-top: 60px;
+}
+#slider{
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+#slider-1{
+    height: 300px;
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+}
+#slider-2{
+    height: 300px;
+    width: 30%;
+    float: left;
+    margin: 0px 5px;
+    border: 1px solid black;
+}
+#slider-3{
+    height: 300px;
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+}
+#slider h3{
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    padding-top: 100px;
+}
+#slider h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: px;
+    padding-bottom: 50px;
+}
+#slider-1{
+    text-align: center;
+    background-color: aquamarine;
+    padding-top: 20px;
+    border-radius: 40px;
+    line-height: 1.4;
+}
+#slider-2{
+    text-align: center;
+    background-color: lightgreen;
+    padding-top: 20px;
+    border-radius: 40px;
+    line-height: 1.4;
+}
+#slider-3{
+    text-align: center;
+    background-color: lightseagreen;
+    padding-top: 20px;
+    border-radius: 40px;
+    line-height: 1.4;
+}
+#slider h4{
+    margin-bottom: 70px;
+}
+#slider a{
+    text-decoration: none;
+    border: 1px solid red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 110px 10px 110px;
+    border-radius: 50px;
+    background-color: red;
+}
+#uor-populer{
+    height: auto;
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10%;
+    float: left;
+    flex-wrap: wrap;
+}
+#box-1{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: aqua;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+}
+#box-2{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+}
+#box-3{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+}
+#box-4{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+}
+#box-5{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+}
+#box-6{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+    margin-top: 40px;
+}#box-7{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+    margin-top: 40px;
+}
+#box-8{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+    margin-top: 40px;
+}
+#box-9{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+    margin-top: 40px;
+}
+#box-10{
+    height: 190px;
+    width:100px;
+    flex-basis:19%;
+    background-color: black;
+    transition:1.5s;
+    color:white;
+    border-radius:15px;
+    text-align:center;
+    padding-top:60px;
+    margin-left: 9px;
+    margin-top: 40px;
+}
+
+#our-populer{
+    height:auto;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+#our-populer h3{
+    font-size: 40px;
+    padding-top: 20px;
+}
+#our-populer h1{
+    font-size: 40px;
+    color: aqua;
+    padding-top: 10px;
+}
+#uor-popule a{
+    text-align: center;
+    text-decoration: none;
+}
+#box-2:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-3:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-4:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-5:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-6:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-7:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-8:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-9:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-10:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-11:hover{
+    color: white;
+    background-color: aqua;
+}
+#box-12:hover{
+    color: white;
+    background-color: aqua;
+}
+#slider{
+    height: 80vh;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+#slider-1{
+    height: 300px;
+    width: 33%;
+    float: left;
+}
+#slider-2{
+    height: 300px;
+    width: 33%;
+    float: left;
+}
+#slider-3{
+    height: 300px;
+    width: 33%;
+    float: left;
+}
+#slider h3{
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    padding-top: 200px;
+}
+#slider h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: px;
+    color: black;
+    padding-bottom: 50px;
+}
+#slider-4{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+}
+#slider-5{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+}
+#slider-6{
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+}
+#slider-4{
+    height: 350px;
+    width: 32%;
+    float: left;
+}
+#slider-5{
+    height: 350px;
+    width: 32%;
+    float: left;
+}
+#slider-6{
+    height: 350px;
+    width:32%;
+    float: left;
+}
+#slider h6{
+    font-size: 20px;
+}
+#slider img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+#footer{
+    height: 300px;
+    width: 100%;
+    float: left;
+    margin-top: 12%;
+    margin-top: 7%;
+    background-color: lightblue;
+}
+#footer-1{
+    height: 100%;
+    width: 25%;
+    float: left;
+    line-height: 2;
+}
+#footer-1 h2{
+    padding-left: 50px;
+}
+#footer-1 p{
+    padding-left: 50px;
+}
+#footer-2{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#footer-3{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#footer-4{
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+#footer-2 a{
+    text-decoration: none;
+    display: block;
+    line-height: 1.5;
+    color: red;
+    font-size: 18px;
+}
+#footer-3 a{
+    text-decoration: none;
+    display: block;
+    color: red;
+    line-height: 2;
+    font-size: 18px;
+}
+#newsletter{
+    margin-top: 7%;
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin-bottom: -7%;
+    background-color: aquamarine;
+}
+#newsletter-1{
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding-left: 10%;
+    line-height: 0px;
+    line-height: 3;
+    padding-top: 20px;
+}
+#newsletter-2{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#newsletter-2 input{
+    height: 40px;
+    width: 80%;
+    background-color: inherit;
+    border: none;
+    border-bottom: 3px solid white;
+    padding-top: 150px;
+    padding-bottom: 10px;
+}

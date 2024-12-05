@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+}
+#logo{
+    height: 100%;
+    flex-basis: 35%;
+}
+#logo h1{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#nav{
+    height: 100%;
+    flex-basis: 80%;
+}
+#nav li{
+    list-style: none;
+    float: right;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 90px;
+    padding: 20px;
+    color: black;
+}
+#icon{
+    height: 100%;
+    flex-basis: 20%;
+}
+#icon a{
+    text-decoration: none;
+    color: black;
+    line-height: 90px;
+    padding-left: 200px;
+    font-size: 18px;
+}
+.ri-search-line{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.ri-chat-3-fill{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.ri-shopping-cart-fill{
+    font-size: 20px;
+    padding-left: 10px;
+}
+#section-head{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#section-1{
+    flex-basis: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section-2{
+    flex-basis: 50%;
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap:wrap;
+}
+#section-1 img{
+   height: 100%;
+   width: 100%;
+}
+#section-1 h1{
+    position: absolute;
+    margin-top:-35%;
+    font-size: 40px;
+    margin-left: 5%;
+}
+#section-1 p{
+    position: absolute;
+    margin-top:-31%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+#section-1 h2{
+    position: absolute;
+    margin-top:-25%;
+    border-bottom: 2px solid black;
+    font-size: px;
+    margin-left: 5%;
+}
+#section-a{
+    flex-basis: 50%;
+    height: 50%;
+}
+#section-a h1{
+    position: absolute;
+    margin-top: -13%;
+    left: 53%;
+}
+#section-a p{
+    position: absolute;
+    margin-top: -11%;
+    font-size: 18px;
+    left: 53%;
+}
+#section-a h2{
+    position: absolute;
+    margin-top: -9%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    left: 53%;
+}
+
+#section-b h1{
+    position: absolute;
+    margin-top: -13%;
+    left: 78%;
+}
+#section-b p{
+    position: absolute;
+    margin-top: -11%;
+    font-size: 18px;
+    left: 78%;
+}
+#section-b h2{
+    position: absolute;
+    margin-top: -9%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    left: 78%;
+}
+#section-c h1{
+    position: absolute;
+    margin-top: -13%;
+    left: 78%;
+}
+#section-c p{
+    position: absolute;
+    margin-top: -11%;
+    font-size: 18px;
+    left: 78%;
+}
+#section-c h2{
+    position: absolute;
+    margin-top: -9%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    left: 78%;
+}
+#section-d h1{
+    position: absolute;
+    margin-top: -13%;
+    left: 53%;
+}
+#section-d p{
+    position: absolute;
+    margin-top: -11%;
+    font-size: 18px;
+    left: 53%;
+}
+#section-d h2{
+    position: absolute;
+    margin-top: -9%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    left: 53%;
+}
+#section-a img{
+    height: 100%;
+    width: 100%;
+}
+#section-b img{
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+}
+#section-c img{
+    height: 100%;
+    width: 100%;
+}
+#section-d img{
+    height: 100%;
+    width: 100%;
+}
+#section-b{
+    flex-basis: 50%;
+    height: 50%;
+}
+#section-c{
+    flex-basis: 50%;
+    height: 50%;
+}
+#section-d{
+    flex-basis: 50%;
+    height: 50%;
+    padding-left: 20px;
+}
+#imgbox{
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-basis: 100%;
+}
+#box{
+    height: 800px;
+    flex-basis:80%;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+
+}
+#box img{
+    height: 70%;
+    width: 100%;
+}
+#box1{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box2{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box3{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box4{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box5{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box6{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box7{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#box8{
+    height: 350px;
+    flex-basis: 25%;
+    text-align: center;
+    padding:10px;
+}
+#offerbox{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    padding-top: 70px;
+    background: url(../imeg/clothing-girl.jpg) ;
+    opacity: 0.8;
+}
+#offer h2{
+    font-family: 'Smokum', cursive;
+    text-transform:uppercase;
+    font-size: 40px;
+}
+#offer p{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#review{
+    height: auto;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#reviewbox{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#reviewbox img{
+    height: 60%;
+    width: 70%;
+}
+#rbox1{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#rbox2{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox3{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox4{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox5{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox6{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox7{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox8{
+    height: 110px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#rbox9{
+    height: 130px;
+    flex-basis: 28%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+#icon{
+    flex-basis: 40%;
+    height: 100%;
+    border: 1px solid white;
+}
+#fashion{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#fashionbox{
+    height: 400px;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+}
+#fashion1{
+    height: 100%;
+    flex-basis: 50%;
+}
+#fashion1 img{
+    height: 100%;
+    width: 100%;
+}
+#fashion2{
+    height: 100%;
+    flex-basis: 50%;
+}
+#fashion2{
+    text-align: center;
+    line-height: 1.4;
+    padding-top: 50px;
+}
+#fashion2 p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px
+}
+#fashion2 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4;
+}
+#fashion2 a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    padding-bottom: 10px;
+}
+#fashion2 h2{
+    font-size: 40px;
+    color:brown;
+    font-family: 'Yuji Hentaigana Akebono',;
+}
+#iconbox{
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#iconbox p{
+    padding-top: 20px;
+}
+#iconbox-1{
+    height: 100%;
+    flex-basis: 23%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#iconbox-2{
+    height: 100%;
+    flex-basis: 23%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#iconbox-3{
+    height: 100%;
+    flex-basis: 23%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#iconbox-4{
+    height: 100%;
+    flex-basis: 23%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#icon-1{
+    flex-basis: 30%;
+    height: 100%;
+}
+#multipleimg{
+    height: 300px;
+    width: 100%;
+    margin-top: 5%;
+}
+#multipleimg img{
+    height: 100%;
+    width: 100%;
+}
+#footer{
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+}
+#footer-1{
+    flex-basis: 25%;
+}
+#footer h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#footer h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+#footer-1 p{
+    font-size: 15px;
+    word-spacing: 5px;
+    padding-bottom: 20px;
+}
+#footer-2{
+    flex-basis: 25%;
+    padding-left: 35px;
+}
+#footer-3{
+    flex-basis: 25%;
+}
+#footer-4{
+    flex-basis: 25%;
+}
+#footer-2 a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1.5;
+    color: black;
+}
+#footer-3 a{
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 1.5;
+    color: black;
+}
+#footer-4 h3{
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+#footer-4 input{
+    height: 30px;
+    width: 300px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
